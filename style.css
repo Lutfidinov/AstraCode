@@ -1,0 +1,23 @@
+
+
+/* Tugma asosiy ko‘rinishi */
+#runBtn {
+  background-color: #28a745; /* yashil fon */
+  color: white;               /* matn rangi oq */
+  border: none;               
+  padding: 10px 20px;         
+  font-size: 16px;
+  border-radius: 5px;         
+  cursor: pointer;            
+  transition: background-color 0.3s ease; /* yumshoq o‘zgarish effekti */
+}
+
+/* Tugma ustiga olib kelganda effekti */
+#runBtn:hover {
+  background-color: #218838; /* biroz quyuqroq yashil */
+}
+
+/* Tugma bosilganda effekti */
+#runBtn:active {
+  background-color: #1e7e34; /* yanada quyuqroq */
+}
